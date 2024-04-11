@@ -1,0 +1,330 @@
+*{
+
+}
+
+body{
+    margin:  0;
+	font-family:"Fira_Sans";
+}
+.menu-sale-img1{
+    position: absolute;
+    opacity: 0.9;
+
+}
+#menu {
+    text-align: center;
+
+
+}
+
+.menu {
+    text-decoration: none;
+    font-size: 35px;
+    padding-left: 35px;
+
+    color:black;
+    transition: 0.5s;
+
+}
+.menu:hover{
+    color:white;
+    background:green;
+    border-radius:30px;
+    padding: 20px;
+}
+@font-face {
+    font-family:"Fira_Sans";
+    src: url("../fonts/Fira_Sans/FiraSans-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+#hq {
+
+    font-size:60px;
+    margin-top:1em ;
+    text-align: center;
+    padding: 0 200px 0 200px;
+
+}
+.logo-header{
+    margin-top:5%;
+    margin-bottom: 3%;
+}
+#avatar{
+    float: right;
+}
+.menu-sale-button{
+    position: absolute;
+    width:250px;
+    height: 60px;
+    background: green;
+    text-align: center;
+    margin-top: 13em;
+    margin-left: 10.5em;
+    padding-top: 15px;
+    border-radius: 30px;
+
+    color:white;
+    font-size: 30px;
+    transition: 0.5s;
+}
+.menu-sale-button:hover{
+    background: black;
+}
+a {
+    text-decoration: none;
+    color:black;
+}
+.menu-sale-p{
+    position: absolute;
+    font-size: 40px;
+    padding: 4em 0em 0em 8em ;
+    color: white;
+}
+.menu-sale-p1{
+    position: absolute;
+    padding: 6em 5em 0 20em ;
+    font-size: 30px;
+    color:white;
+
+}
+.menu-sale-p3{
+    position: absolute;
+    font-size: 40px;
+    padding: 4em 8em 0em 8em ;
+    color: white;
+}
+.main-sale {
+
+}
+#balls-div{
+    width: 100%;
+    height: 100em;
+    overflow: hidden;
+    background: black;
+}
+.slider{
+    max-width: 100%;
+    /* Положение элемента устанавливается относительно его исходной позиции: */
+    position: relative;
+    /* Центрируем по горизонтали: */
+    margin: auto;
+    height: 300px;
+}
+
+/* Картинка масштабируется по отношению к родительскому элементу: */
+.slider .item .img-slad {
+    /* Элемент меняет размер так, чтобы заполнить блок и сохранить пропорции: */
+    object-fit: cover;
+    width: 100%;
+    height: 560px;
+    position: absolute;
+}
+
+/* Кнопки назад и вперёд: */
+.slider .previous, .slider .next {
+    /* Добавляет курсору иконку, когда тот оказывается над кнопкой: */
+    cursor: pointer;
+    /* Положение элемента задаётся относительно границ браузера: */
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: 135px;
+    padding: 16px;
+    /* Оформление самих кнопок: */
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    /* Плавное появление фона при наведении курсора: */
+    transition: 0.6s ease;
+    /* Скругление границ: */
+    border-radius: 0 3px 3px 0;
+}
+.slider .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* При наведении курсора на кнопки добавляем фон кнопок: */
+.slider .previous:hover,
+.slider .next:hover {
+    background-color: green;
+    border-radius:10px ;
+}
+
+/* Анимация слайдов: */
+.slider .item {
+    animation-name: fade;
+    animation-duration: 1.5s;
+
+}
+@keyframes fade {
+    /* Устанавливаем и изменяем степень прозрачности: */
+    from {
+        opacity: 0.4
+    }
+    to {
+        opacity: 1
+    }
+}
+#r{
+    background: black;
+}
+#optin{
+    border: none;
+}
+.balls-form{
+    background: linear-gradient(to bottom right,Lime,MediumSpringGreen);
+color:white;
+    margin: 20em 30px 0 30px;
+    padding: 34px;
+    border-radius: 30px;
+
+}
+input{
+    border:none;
+    background: none;
+
+    width: 150px;
+    transition: 2s;
+}
+input[type="number" i]:default {
+    border: none;
+}
+.balls-input{
+    padding-right: 35px;
+}
+
+input:hover{
+   border-left:1px solid black;
+    border-right:1px solid black;
+    transition: 2s;
+}
+.menu-button {
+    border-radius:20px ;
+    width: 150px;
+    height: 30px;
+    transition: 0.5s;
+    background:cadetblue;
+    border: none;
+    color:white;
+}
+.menu-button:hover{
+    background: cornflowerblue;
+}
+
+.main-dovr{
+    text-align: center;
+    font-size: 50px;
+}
+.main-dovr-text{
+    text-align: center;
+    font-size: 30px;
+    padding: 120px;
+}
+.balls-form1{
+    background: linear-gradient(to bottom right,Lime,MediumSpringGreen);
+    color:white;
+    margin: 30px;
+    padding: 34px;
+    border-radius: 30px;
+}
+.balls-input1 .balls-inputInp{
+    padding-right: 35px;
+    flex-direction: row;
+    justify-content: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+}
+.balls-form2{
+    background: linear-gradient(to bottom right,Lime,MediumSpringGreen);
+    color:white;
+    padding: 34px;
+    border-radius: 30px;
+    margin: 30px;
+}
+.balls-input2{
+    padding-right: 35px;
+}
+#balls-tickets{
+    margin: 20em;
+} #dovr{
+      margin: 20em;
+  } #test-0-nav-2 #zak{
+    margin: 20em;
+}
+select{
+    transition: 0.5s;
+    background: none;
+    border-bottom:1px solid black;
+}
+
+
+footer{
+    width: 100%;
+    height: 200px;
+    background: black;
+    color:white;
+
+}
+
+.footer-cont{
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.Search-form{
+    text-align: left;
+    margin: 22em 0em 8em 24em;
+    border: 5px solid green;
+
+    width: 41em;
+    height: 20em;
+    padding: 34px;
+    border-radius: 30px;
+}
+#dovr{
+    display: flex;
+    flex: auto;
+    background: linear-gradient(to bottom right,Lime,MediumSpringGreen);
+    color:white;
+    margin: 30px;
+    border-radius: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

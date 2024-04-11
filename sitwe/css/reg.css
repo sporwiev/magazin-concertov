@@ -1,0 +1,88 @@
+*{
+    font-family:"Fira_Sans";
+}
+#reg {
+    margin-left: 35%;
+    margin-top: 41em;
+
+    border: 3px lawngreen dashed;
+    border-radius: 30px;
+    width: 25em;
+    height: 30em;
+}
+@font-face {
+    font-family:"Fira_Sans";
+    src: url("../fonts/Fira_Sans/FiraSans-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+.reg-polya {
+ margin: 30px;
+
+}
+.reg-polya-but{
+    margin-left: 20px;
+    float: right;
+    border-radius: 15px;
+
+}
+button{
+    width: 120px;
+    height: 40px;
+    background: lawngreen;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 17px;
+    transition: 0.5s;
+}
+button:hover{
+    background: cornflowerblue;
+}
+span{
+    flex-direction: row;
+    justify-content: flex-start;
+    display: flex;
+}
+nav {
+
+    position: absolute;
+}
+#menu {
+    text-align: center;
+
+}
+#menublock{
+    margin-left: 30%;
+    padding: 1px;
+}
+.menu {
+    text-decoration: none;
+    font-size: 35px;
+    padding-left: 35px;
+    color:black;
+    transition: 0.5s;
+
+}
+.menu:hover{
+    color:white;
+    background:green;
+    border-radius:30px;
+    padding: 10px;
+}
+footer{
+    margin-top: 50em;
+    width: 100%;
+    height: 200px;
+    background: black;
+    color:white;
+
+}
+.footer-cont{
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.logo-header{
+    margin-bottom:15%;
+
+}

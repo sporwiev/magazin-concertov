@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel = "shortcut icon" href = "../img/logo.jpg" type = "image/x-icon">
+    <link href = "../css/reg.css" rel = "stylesheet">
+
+
+
+</head>
+<body>
+<header>
+
+
+
+    <div id = "menublock">
+        <nav id = "menu">
+            <div class = "logo-header">
+                <a><img src = "../img/logo.jpg" width="auto" height="150px"/></a>
+            </div>
+            <a class = "menu" href = "../index.html/#test-0-nav-1">Акции</a>
+            <a class = "menu" href = "../index.html/#test-0-nav-2">Поиск</a>
+            <a class = "menu" href = "privatecab.html">Личный кабинет</a>
+
+        </nav>
+
+    </div>
+</header>
+<main>
+<form id = "reg">
+    <div>
+        <p class="reg-polya">
+            <label>Имя<input class = "reg-polya-but" type="text" id = "name1" name="nameCab" required/></label>
+        </p>
+        <p class="reg-polya">
+            <label>Фамилия<input class = "reg-polya-but" type="text" id = "surname1" name = "surnameCab" required/></label>
+        </p>
+        <p class="reg-polya">
+            <label>Номер документа <input class = "reg-polya-but" id = "pasport" type="number" placeholder="пример 476"/></label>
+        </p>
+        <p class="reg-polya">
+            <label>Телефон<input class = "reg-polya-but" id = "phone" type="number" required/></label>
+        </p>
+        <p class="reg-polya">
+            <label>Пароль<input class = "reg-polya-but" type="password" id = "password" pattern="^(?=.*?[az])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{7,}$" required/></label>
+
+        </p>
+
+        <p class="reg-polya">
+            <label>Повтор пароля<input class = "reg-polya-but" type="password" id = "repeatpassword" required/></label>
+        </p>
+        <nav>
+        <p class="reg-polya">
+            <button id = "regist" onclick = "ButtonClickReg();">Регистрация</button>
+            <span class = "reg-polya-but" id = "zap"></span>
+        </p>
+        <p class = "reg-polya" id = "reg-polya">
+            <button onclick = "window.location.href = '../html/login.html'">Войти</button>
+        </p>
+        </nav>
+    </div>
+</form>
+</main>
+
+<footer>
+    <p class = "footer-cont">Телефон 8 (800) 289-20-10 </p>
+</footer>
+</body>
+<script src="../scripts/reg.js"></script>
+
+</html>

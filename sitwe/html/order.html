@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Order</title>
+    <link href = "../css/order.css" rel = "stylesheet">
+</head>
+<body>
+<header>
+    <span id = 'avatar'>
+
+    </span>
+    <div>
+        <nav id = "menu">
+            <div class = "logo-header"><a><img src = "../img/logo.jpg" width="auto" height="150px"/></a></div>
+            <a class = "menu" href = "../index.html/#test-0-nav-1">Акции</a>
+            <a class = "menu" href = "../index.html/#test-0-nav-2">Поиск</a>
+            <a class = "menu" href = "privatecab.html">Личный кабинет</a>
+
+        </nav>
+
+    </div>
+</header>
+<main>
+    <div class = "ticketsOptionBlock">
+        <p>
+            <button class = "ticketsOption" id = "add" onclick="addClient();">
+                +
+            </button>
+        </p>
+        <p>
+            <button class = "ticketsOption" id = "del" onclick="Glav.lastElementChild.remove();">-</button>
+        </p>
+        <p>
+            <button class = "ticketsOption" id = "checkout" onclick="checkout();">></button>
+        </p>
+    </div>
+    <div>
+
+        <form class = "tickets">
+    <div>
+        <p><h3>Данные о билете</h3></p>
+        <p>
+    <label>Номер билета<span  id = "numberTickets"></span></label>
+        </p><p>
+    <label> Город<span id = "sity"></span></label>
+    </p>
+        <p>
+    <label> Название концерта<span id = "nameConcert"></span></label>
+        </p>
+        <p>
+    <label> Дата концерта<span id = "dateConcert"></span></label>
+        </p>
+        <p>
+    <label> Время концерта<span id = "timeConcert"></span></label>
+        </p>
+        <p>
+    <label> Время начала концерта<span id = "startTimeConcert"></span></label>
+        </p>
+        <p>
+    <label> Время окончания концерта<span id = "endTimeConcert"></span></label>
+            </p>
+        <p>
+    <label> Количество оставшихся билетов<span id = "lastTickets"></span></label>
+            </p>
+        <p>
+    <label> Стоимость<span id = "price"></span></label>
+        </p>
+    </div>
+
+</form>
+<form class = "tickets" id="tickets">
+    <p><h3>Данные о клиент</h3></p>
+    <p>
+    <label>Имя<span id = "nameP"></span></label>
+        </p>
+    <p>
+    <label>Фамилия<span id = "surnameP"></span></label>
+    </p>
+    <p>
+    <label>Дата-рождения<span id = "dateBirthday"></span></label>
+    </p>
+    <p>
+    <label>Номер документа<span id = "numberDoc"></span></label>
+    </p>
+</form>
+    </div>
+    <div id = "glav"></div>
+
+<p>
+    <label>Итоговая цена<span id = finalPrice></span></label>
+</p>
+<div class = "tr">
+<div class = "spanblock">
+
+</div>
+</div>
+
+</main>
+<footer>
+    <p class = "footer-cont">Телефон 8 (800) 289-20-10 </p>
+</footer>
+</body>
+<script src="../scripts/order.js"></script>
+</html>

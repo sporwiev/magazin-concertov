@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Theatre</title>
+    <link rel = "shortcut icon" href = "img/logo.jpg" type = "image/x-icon">
+
+    <link href = "css/style.css" rel = "stylesheet">
+</head>
+<body>
+<header>
+    <span id = 'avatar'>
+
+    </span>
+    <div>
+        <nav id = "menu">
+            <div class = "logo-header"><a><img src = "img/logo.jpg" width="auto" height="150px"/></a></div>
+            <a class = "menu" href = "index.html/#test-0-nav-1">Акции</a>
+            <a class = "menu" href = "index.html/#test-0-nav-2">Поиск</a>
+            <a class = "menu" href = "index.html/#test-0-nav-3 ">Личный кабинет</a>
+
+        </nav>
+
+    </div>
+    <p id="hq">Концерты на любой вкус по всей России</p>
+</header>
+<main>
+    <video>
+        <source src = "">
+    </video>
+    <section id = "test-0-nav-1" class="view">
+            <div class="slider">
+
+                <!-- Первый слайд -->
+                <div class="item">
+                    <nav class = "main-sale">
+                            <img src="img/img-slider1.jpg"  class = "img-slad">
+                            <div style = "background: black;width: 100%;height: 560px;position: absolute;opacity: 0.7; animation-duration: 1.5s;"></div>
+                            <p class = "menu-sale-p">С 25.09.22 <br/>По 08.09.22</p>
+                            <p class = "menu-sale-p1">Пройдут концерты со скидкой в <b>20%</b> В Санкт-Петербурге,купить билеты вы сможете по кнопке ниже</p>
+
+                    </nav>
+                    <button onclick="ButtonClickmest()"><p class = "menu-sale-button">Купить билеты</p></button>
+                </div>
+
+                <!-- Второй слайд -->
+                <div class="item">
+                    <img src="img/za_chernoy.jpg"  class = "img-slad">
+                    <div style = "background: black;width: 100%;height: 560px;position: absolute;opacity: 0.7; animation-duration: 1.5s;"></div>
+                    <p class = "menu-sale-p">С 05.10.22 <br/>По 17.11.22</p>
+                    <p class = "menu-sale-p1">Театр "за черной речкой" стоит на реконструкции,согласно требованиям комитета по капитальному ремонту Санкт-Петербурга</p>
+                </div>
+
+                <!-- Третий слайд -->
+                <div class="item">
+                    <img src="img/1o415pkf383132.jpg"  class = "img-slad">
+                    <div style = "background: black;width: 100%;height: 560px;position: absolute;opacity: 0.7; animation-duration: 1.5s;"></div>
+                    <p class = "menu-sale-p3">Новости о ближайших сеансах на Сентябрь по кнопке ниже</p>
+                    <a href = " " ><p class = "menu-sale-button">Узнать больше</p></a>
+
+                </div>
+
+                <!-- Кнопки-стрелочки -->
+                <a class="previous" onclick="previousSlide()">&#10094;</a>
+                <a class="next" onclick="nextSlide()">&#10095;</a>
+            </div>
+
+    </section>
+    <section id = "balls-tickets" class="view">
+
+        <form action="" method="post" id = "divToShowHide">
+            <div class = "balls-form">
+                <p><h1>Заполните форму чтобы узнать предварительную цену</h1></p>
+                <div>
+                    <p>
+
+                        <label class = "balls-input">Введите условну дату</label>
+                        <input type="date" name="balls-date" placeholder="ДД:ММ:ГГ" required/>
+                    </p>
+                    <p>
+                        <label class = "balls-input" >Введите количество билетов</label>
+                        <input class = "balls-input" type="number" name = "balls-tickets" id = "kolv" placeholder="1,2..."/>
+
+                    </p>
+                    <p>
+                        <label class = "balls-input">Итоговая цена</label>
+                        <span id = "result" placeholder="итоговая цена"></span>
+                    </p>
+                </div>
+                <button class = "menu-button" id = "tr" onclick="ButtonClick()" >Узнать цену</button>
+            </div>
+        </form>
+    </section>
+
+    <section id = "dovr" class = "view">
+    <div>
+        <p class = "main-dovr">
+            Почему нам можно верить?
+        </p>
+        <p class="main-dovr-text">
+            Получить рекомендацию можно от человека, который хорошо знает рекомендуемого, его п
+            рофессиональные и личностные качества, круг интересов, научные достижения и прочее. То
+            т, кто дает рекомендацию, должен иметь довольно высокий авторитет и признание в своей сфере д
+            еятельности, репутацию морального человека. Это необходимые условия, поскольку речь идет об объект
+            ивности оценки. А любая организация заинтересована в квалифицированных и лояльных сотрудниках.
+
+            Рекомендательные письма в бизнесе
+            Рекомендации используются и в коммерческой переписке. В начале сотрудничества с любой компани
+            ей желательно собрать информацию о стабильности возможного партнера, его платежеспособность, репут
+            ацию руководства и тому подобное. Много фирм, впервые обращаясь с заказом к продавцу, высылают ему назван
+            ия и адреса нескольких компаний, с которыми сотрудничают.сли возникают какие-то
+            сомнения относительно потенциального покупателя, фирма-продавец делает запрос на рекомендацию.
+            В таком письме следует указать название фирмы, о которой необходимо получить информацию,
+            стоимость заказа, сделанного фирмой. При этом необходимо упомянуть, что вся полученная
+            информация останется конфиденциальной.
+            Как составить рекомендательное письмо
+        </p>
+    </div>
+    </section>
+    <section id = "test-0-nav-2" class = "view">
+        <form action="" method="post" id = "form1" >
+            <div class = "balls-form1">
+                <p><h1>Вы можете узнать о предстоящих концертов</h1></p>
+                <div>
+                    <p>
+
+                        <label class = "balls-input1">Введите дату от</label>
+                        <input id = "date-kon-ot" type="date" name="balls-date" placeholder="ДД:ММ:ГГ" required/>
+                    </p>
+                        <label class = "balls-input1">Введите дату до</label>
+                        <input id = "date-kon-do" type="date" name="balls-date" placeholder="ДД:ММ:ГГ" required/>
+                    <p>
+                        <label class = "balls-input1" >Выберите тип концерта</label>
+                        <select id = "optin" required>
+                            <option>классика</option>
+                            <option>рок</option>
+                            <option>джаз</option>
+                            <option>народная</option>
+                            <option>фолк</option>
+                            <option>хип-хоп</option>
+                        </select>
+
+                    </p>
+                    <p>
+                        <label class = "balls-input1">Количество гостей</label>
+                        <input type="number" required/>
+                    </p>
+
+                </div>
+                <button class = "menu-button" formaction="html/search.html" onclick="ButtonClick1()">Узнать концерт</button>
+            </div>
+        </form>
+    </section>
+
+    <section id = "zak" class = "view">
+        <form action="" method="post" id = "form2">
+            <div class = "balls-form2">
+                <p><h1>Вы можете подписаться на закрытые акции</h1></p>
+                <div>
+                    <p>
+
+                        <label class = "balls-input1">Имя</label>
+                        <input  class = "balls-inputInp" id = "namee" type="text" name="balls-name" placeholder="anton" required/>
+                    </p>
+                    <p>
+                        <label class = "balls-input1">Email</label>
+                        <input  class = "balls-inputInp" id = "emaill" type="email" name="balls-email" placeholder="Example@example.com" required/>
+                    </p>
+                    <p>
+                        <label class = "balls-input1"><b>Записан:</b></label>
+                        <span  class = "balls-inputInp" id = "result3"></span>
+                    </p>
+                </div>
+                <button class = "menu-button" onclick="ButtonClick3()">Узнать концерт</button>
+            </div>
+        </form>
+    </section>
+</main>
+<footer>
+    <p class = "footer-cont">Телефон 8 (800) 289-20-10 </p>
+</footer>
+</body>
+
+</script>
+<script src="scripts/script.js"></script>
+<script src="scripts/reg.js"></script>
+</html>
